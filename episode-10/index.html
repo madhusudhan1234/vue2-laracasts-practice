@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vue2 Episode 10</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.3/css/bulma.css">
+	<style type="text/css">
+		body {
+			padding-top: 40px;
+		}
+	</style>
+</head>
+<body>
+
+	<div id="root" class="container">
+
+		<modal v-if="showModal" @close="showModal = false">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+	    		Duis malesuada suscipit magna consectetur finibus. Nunc in 
+	    		neque fermentum, commodo velit condimentum, imperdiet urna. 
+	    		Mauris viverra, ligula ac pellentesque efficitur, mi nibh dignissim 
+	    		risus, vel pharetra libero odio quis felis. Phasellus gravida dignissim 
+	    		nisl. Suspendisse tempor, lectus vitae mattis hendrerit, tellus purus ultrices 
+	    		quam, non ullamcorper tellus neque quis arcu. Vestibulum ante ipsum primis in 
+	    		faucibus orci luctus et ultrices posuere cubilia Curae; Sed id elit hendrerit 
+	    		enim varius pellentesque a non neque. Fusce pretium nunc risus, vel ultricies 
+	    		elit rutrum quis. Donec ac pulvinar tortor. Donec sodales tortor elit, fringilla </p>
+		</modal>
+
+		<button class="button is-primary" @click="showModal = true">Show Modal</button>
+
+	</div>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.8/vue.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>

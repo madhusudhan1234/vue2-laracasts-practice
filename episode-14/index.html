@@ -12,9 +12,16 @@
 <body>
 
 	<div id="root" class="container">
-		<coupon v-on:applied="onCouponApplied"></coupon>	
+		<modal>
+			<template slot="header"> This is something Here </template>
 
-		<h2 v-if="couponApplied">Hello This is the h1 tag</h2>
+			This is my main content
+
+			<template slot="footer">
+		      <a class="button is-primary">Save changes</a>
+		      <a class="button">Cancel</a>
+			</template>
+		</modal>
 	</div>
 
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.8/vue.js"></script>

@@ -1,5 +1,3 @@
-
-
 Vue.component('modal', {
 	template: `
 		<div class="modal is-active">

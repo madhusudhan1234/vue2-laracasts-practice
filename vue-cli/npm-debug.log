@@ -1,0 +1,278 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install' ]
+2 info using npm@3.10.9
+3 info using node@v6.9.1
+4 verbose config Skipping project config: /home/madhu/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly install normalizeTree
+9 silly loadCurrentTree Finishing
+10 silly loadIdealTree Starting
+11 silly install loadIdealTree
+12 silly cloneCurrentTree Starting
+13 silly install cloneCurrentTreeToIdealTree
+14 silly cloneCurrentTree Finishing
+15 silly loadShrinkwrap Starting
+16 silly install loadShrinkwrap
+17 silly loadShrinkwrap Finishing
+18 silly loadAllDepsIntoIdealTree Starting
+19 silly install loadAllDepsIntoIdealTree
+20 silly loadAllDepsIntoIdealTree Finishing
+21 silly loadIdealTree Finishing
+22 silly currentTree madhu
+22 silly currentTree ├── ansi-regex@2.0.0
+22 silly currentTree ├── ansi-styles@2.2.1
+22 silly currentTree ├── array-differ@1.0.0
+22 silly currentTree ├── array-find-index@1.0.2
+22 silly currentTree ├── array-uniq@1.0.3
+22 silly currentTree ├── beeper@1.1.1
+22 silly currentTree ├── builtin-modules@1.1.1
+22 silly currentTree ├── camelcase-keys@2.1.0
+22 silly currentTree ├── camelcase@2.1.1
+22 silly currentTree ├── chalk@1.1.3
+22 silly currentTree ├── clone-stats@0.0.1
+22 silly currentTree ├── clone@1.0.2
+22 silly currentTree ├── core-util-is@1.0.2
+22 silly currentTree ├── currently-unhandled@0.4.1
+22 silly currentTree ├── dateformat@1.0.12
+22 silly currentTree ├── decamelize@1.2.0
+22 silly currentTree ├── duplexer2@0.0.2
+22 silly currentTree ├── error-ex@1.3.0
+22 silly currentTree ├── escape-string-regexp@1.0.5
+22 silly currentTree ├── fancy-log@1.2.0
+22 silly currentTree ├── find-up@1.1.2
+22 silly currentTree ├── get-stdin@4.0.1
+22 silly currentTree ├── glogg@1.0.0
+22 silly currentTree ├── graceful-fs@4.1.10
+22 silly currentTree ├── gulp-install@0.6.0
+22 silly currentTree ├── gulp-util@3.0.7
+22 silly currentTree ├── gulplog@1.0.0
+22 silly currentTree ├── has-ansi@2.0.0
+22 silly currentTree ├── has-gulplog@0.1.0
+22 silly currentTree ├── hosted-git-info@2.1.5
+22 silly currentTree ├── indent-string@2.1.0
+22 silly currentTree ├── inherits@2.0.3
+22 silly currentTree ├── is-arrayish@0.2.1
+22 silly currentTree ├── is-builtin-module@1.0.0
+22 silly currentTree ├── is-finite@1.0.2
+22 silly currentTree ├── is-utf8@0.2.1
+22 silly currentTree ├── isarray@0.0.1
+22 silly currentTree ├── isexe@1.1.2
+22 silly currentTree ├── load-json-file@1.1.0
+22 silly currentTree ├── lodash._basecopy@3.0.1
+22 silly currentTree ├── lodash._basetostring@3.0.1
+22 silly currentTree ├── lodash._basevalues@3.0.0
+22 silly currentTree ├── lodash._getnative@3.9.1
+22 silly currentTree ├── lodash._isiterateecall@3.0.9
+22 silly currentTree ├── lodash._reescape@3.0.0
+22 silly currentTree ├── lodash._reevaluate@3.0.0
+22 silly currentTree ├── lodash._reinterpolate@3.0.0
+22 silly currentTree ├── lodash._root@3.0.1
+22 silly currentTree ├── lodash.escape@3.2.0
+22 silly currentTree ├── lodash.isarguments@3.1.0
+22 silly currentTree ├── lodash.isarray@3.0.4
+22 silly currentTree ├── lodash.keys@3.1.2
+22 silly currentTree ├── lodash.restparam@3.6.1
+22 silly currentTree ├── lodash.template@3.6.2
+22 silly currentTree ├── lodash.templatesettings@3.1.1
+22 silly currentTree ├── loud-rejection@1.6.0
+22 silly currentTree ├── map-obj@1.0.1
+22 silly currentTree ├─┬ meow@3.7.0
+22 silly currentTree │ └── object-assign@4.1.0
+22 silly currentTree ├── minimist@1.2.0
+22 silly currentTree ├── multipipe@0.1.2
+22 silly currentTree ├── normalize-package-data@2.3.5
+22 silly currentTree ├── number-is-nan@1.0.1
+22 silly currentTree ├── object-assign@3.0.0
+22 silly currentTree ├── parse-json@2.2.0
+22 silly currentTree ├── path-exists@2.1.0
+22 silly currentTree ├── path-type@1.1.0
+22 silly currentTree ├── pify@2.3.0
+22 silly currentTree ├── pinkie-promise@2.0.1
+22 silly currentTree ├── pinkie@2.0.4
+22 silly currentTree ├── process-nextick-args@1.0.7
+22 silly currentTree ├── read-pkg-up@1.0.1
+22 silly currentTree ├── read-pkg@1.1.0
+22 silly currentTree ├── readable-stream@1.1.14
+22 silly currentTree ├── redent@1.0.0
+22 silly currentTree ├── repeating@2.0.1
+22 silly currentTree ├── replace-ext@0.0.1
+22 silly currentTree ├── semver@5.3.0
+22 silly currentTree ├── signal-exit@3.0.1
+22 silly currentTree ├── sparkles@1.0.0
+22 silly currentTree ├── spdx-correct@1.0.2
+22 silly currentTree ├── spdx-expression-parse@1.0.4
+22 silly currentTree ├── spdx-license-ids@1.2.2
+22 silly currentTree ├── string_decoder@0.10.31
+22 silly currentTree ├── strip-ansi@3.0.1
+22 silly currentTree ├── strip-bom@2.0.0
+22 silly currentTree ├── strip-indent@1.0.1
+22 silly currentTree ├── supports-color@2.0.0
+22 silly currentTree ├─┬ through2@2.0.1
+22 silly currentTree │ ├── isarray@1.0.0
+22 silly currentTree │ └── readable-stream@2.0.6
+22 silly currentTree ├── time-stamp@1.0.1
+22 silly currentTree ├── trim-newlines@1.0.0
+22 silly currentTree ├── util-deprecate@1.0.2
+22 silly currentTree ├── validate-npm-package-license@3.0.1
+22 silly currentTree ├── vinyl@0.5.3
+22 silly currentTree ├── which@1.2.12
+22 silly currentTree └── xtend@4.0.1
+23 silly idealTree madhu
+23 silly idealTree ├── ansi-regex@2.0.0
+23 silly idealTree ├── ansi-styles@2.2.1
+23 silly idealTree ├── array-differ@1.0.0
+23 silly idealTree ├── array-find-index@1.0.2
+23 silly idealTree ├── array-uniq@1.0.3
+23 silly idealTree ├── beeper@1.1.1
+23 silly idealTree ├── builtin-modules@1.1.1
+23 silly idealTree ├── camelcase-keys@2.1.0
+23 silly idealTree ├── camelcase@2.1.1
+23 silly idealTree ├── chalk@1.1.3
+23 silly idealTree ├── clone-stats@0.0.1
+23 silly idealTree ├── clone@1.0.2
+23 silly idealTree ├── core-util-is@1.0.2
+23 silly idealTree ├── currently-unhandled@0.4.1
+23 silly idealTree ├── dateformat@1.0.12
+23 silly idealTree ├── decamelize@1.2.0
+23 silly idealTree ├── duplexer2@0.0.2
+23 silly idealTree ├── error-ex@1.3.0
+23 silly idealTree ├── escape-string-regexp@1.0.5
+23 silly idealTree ├── fancy-log@1.2.0
+23 silly idealTree ├── find-up@1.1.2
+23 silly idealTree ├── get-stdin@4.0.1
+23 silly idealTree ├── glogg@1.0.0
+23 silly idealTree ├── graceful-fs@4.1.10
+23 silly idealTree ├── gulp-install@0.6.0
+23 silly idealTree ├── gulp-util@3.0.7
+23 silly idealTree ├── gulplog@1.0.0
+23 silly idealTree ├── has-ansi@2.0.0
+23 silly idealTree ├── has-gulplog@0.1.0
+23 silly idealTree ├── hosted-git-info@2.1.5
+23 silly idealTree ├── indent-string@2.1.0
+23 silly idealTree ├── inherits@2.0.3
+23 silly idealTree ├── is-arrayish@0.2.1
+23 silly idealTree ├── is-builtin-module@1.0.0
+23 silly idealTree ├── is-finite@1.0.2
+23 silly idealTree ├── is-utf8@0.2.1
+23 silly idealTree ├── isarray@0.0.1
+23 silly idealTree ├── isexe@1.1.2
+23 silly idealTree ├── load-json-file@1.1.0
+23 silly idealTree ├── lodash._basecopy@3.0.1
+23 silly idealTree ├── lodash._basetostring@3.0.1
+23 silly idealTree ├── lodash._basevalues@3.0.0
+23 silly idealTree ├── lodash._getnative@3.9.1
+23 silly idealTree ├── lodash._isiterateecall@3.0.9
+23 silly idealTree ├── lodash._reescape@3.0.0
+23 silly idealTree ├── lodash._reevaluate@3.0.0
+23 silly idealTree ├── lodash._reinterpolate@3.0.0
+23 silly idealTree ├── lodash._root@3.0.1
+23 silly idealTree ├── lodash.escape@3.2.0
+23 silly idealTree ├── lodash.isarguments@3.1.0
+23 silly idealTree ├── lodash.isarray@3.0.4
+23 silly idealTree ├── lodash.keys@3.1.2
+23 silly idealTree ├── lodash.restparam@3.6.1
+23 silly idealTree ├── lodash.template@3.6.2
+23 silly idealTree ├── lodash.templatesettings@3.1.1
+23 silly idealTree ├── loud-rejection@1.6.0
+23 silly idealTree ├── map-obj@1.0.1
+23 silly idealTree ├─┬ meow@3.7.0
+23 silly idealTree │ └── object-assign@4.1.0
+23 silly idealTree ├── minimist@1.2.0
+23 silly idealTree ├── multipipe@0.1.2
+23 silly idealTree ├── normalize-package-data@2.3.5
+23 silly idealTree ├── number-is-nan@1.0.1
+23 silly idealTree ├── object-assign@3.0.0
+23 silly idealTree ├── parse-json@2.2.0
+23 silly idealTree ├── path-exists@2.1.0
+23 silly idealTree ├── path-type@1.1.0
+23 silly idealTree ├── pify@2.3.0
+23 silly idealTree ├── pinkie-promise@2.0.1
+23 silly idealTree ├── pinkie@2.0.4
+23 silly idealTree ├── process-nextick-args@1.0.7
+23 silly idealTree ├── read-pkg-up@1.0.1
+23 silly idealTree ├── read-pkg@1.1.0
+23 silly idealTree ├── readable-stream@1.1.14
+23 silly idealTree ├── redent@1.0.0
+23 silly idealTree ├── repeating@2.0.1
+23 silly idealTree ├── replace-ext@0.0.1
+23 silly idealTree ├── semver@5.3.0
+23 silly idealTree ├── signal-exit@3.0.1
+23 silly idealTree ├── sparkles@1.0.0
+23 silly idealTree ├── spdx-correct@1.0.2
+23 silly idealTree ├── spdx-expression-parse@1.0.4
+23 silly idealTree ├── spdx-license-ids@1.2.2
+23 silly idealTree ├── string_decoder@0.10.31
+23 silly idealTree ├── strip-ansi@3.0.1
+23 silly idealTree ├── strip-bom@2.0.0
+23 silly idealTree ├── strip-indent@1.0.1
+23 silly idealTree ├── supports-color@2.0.0
+23 silly idealTree ├─┬ through2@2.0.1
+23 silly idealTree │ ├── isarray@1.0.0
+23 silly idealTree │ └── readable-stream@2.0.6
+23 silly idealTree ├── time-stamp@1.0.1
+23 silly idealTree ├── trim-newlines@1.0.0
+23 silly idealTree ├── util-deprecate@1.0.2
+23 silly idealTree ├── validate-npm-package-license@3.0.1
+23 silly idealTree ├── vinyl@0.5.3
+23 silly idealTree ├── which@1.2.12
+23 silly idealTree └── xtend@4.0.1
+24 silly generateActionsToTake Starting
+25 silly install generateActionsToTake
+26 silly generateActionsToTake Finishing
+27 silly diffTrees action count 0
+28 silly decomposeActions action count 0
+29 silly runTopLevelLifecycles Starting
+30 silly install runPreinstallTopLevelLifecycles
+31 silly preinstall madhu /home/madhu/madhu-47166c6d
+32 info lifecycle undefined~preinstall: undefined
+33 silly lifecycle undefined~preinstall: no script for preinstall, continuing
+34 silly executeActions Starting
+35 silly install executeActions
+36 silly doSerial global-install 0
+37 silly doParallel fetch 0
+38 verbose correctMkdir /home/madhu/.npm/_locks correctMkdir not in flight; initializing
+39 verbose lock using /home/madhu/.npm/_locks/staging-309043dd721bf564.lock for /home/madhu/node_modules/.staging
+40 verbose unlock done using /home/madhu/.npm/_locks/staging-309043dd721bf564.lock for /home/madhu/node_modules/.staging
+41 silly rollbackFailedOptional Starting
+42 silly rollbackFailedOptional Finishing
+43 silly runTopLevelLifecycles Finishing
+44 silly install printInstalled
+45 warn enoent ENOENT: no such file or directory, open '/home/madhu/package.json'
+46 verbose enoent ENOENT: no such file or directory, open '/home/madhu/package.json'
+46 verbose enoent This is most likely not a problem with npm itself
+46 verbose enoent and is related to npm not being able to find a file.
+47 warn madhu No description
+48 verbose If you need help, you may report this error at:
+48 verbose     <https://github.com/npm/npm/issues>
+49 warn madhu No repository field.
+50 verbose If you need help, you may report this error at:
+50 verbose     <https://github.com/npm/npm/issues>
+51 warn madhu No README data
+52 verbose If you need help, you may report this error at:
+52 verbose     <https://github.com/npm/npm/issues>
+53 warn madhu No license field.
+54 verbose If you need help, you may report this error at:
+54 verbose     <https://github.com/npm/npm/issues>
+55 verbose stack Error: EACCES: permission denied, mkdir '/home/madhu/node_modules/.staging'
+55 verbose stack     at Error (native)
+56 verbose cwd /home/madhu/workspace/vue-cli
+57 error Linux 4.4.0-59-generic
+58 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install"
+59 error node v6.9.1
+60 error npm  v3.10.9
+61 error path /home/madhu/node_modules/.staging
+62 error code EACCES
+63 error errno -13
+64 error syscall mkdir
+65 error Error: EACCES: permission denied, mkdir '/home/madhu/node_modules/.staging'
+65 error     at Error (native)
+65 error  { Error: EACCES: permission denied, mkdir '/home/madhu/node_modules/.staging'
+65 error     at Error (native)
+65 error   errno: -13,
+65 error   code: 'EACCES',
+65 error   syscall: 'mkdir',
+65 error   path: '/home/madhu/node_modules/.staging' }
+66 error Please try running this command again as root/Administrator.
+67 verbose exit [ -13, true ]

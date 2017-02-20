@@ -12,6 +12,7 @@
 </head>
 <body>
     <div id="app" class="container">
+        <example></example>
         @include('projects.list')
 
         <form action="/projects" method="POST" @submit.prevent="onSubmit" @keydown="form.errors.clear($event.target.name)">
@@ -37,8 +38,7 @@
             </div>
         </form>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.15.3/axios.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.6/vue.js"></script>
+    <script src="/js/vendor.js"></script>
     <script src="/js/app.js"></script>
 </body>
 </html>
